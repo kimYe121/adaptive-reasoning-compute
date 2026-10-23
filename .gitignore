@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Model/data artifacts
+models/
+checkpoints/
+datasets/
+data/raw/
+*.safetensors
+*.pt
+*.pth
+*.bin
+
+# Experiment outputs (commit small curated summaries only)
+outputs/
+results/raw/
+*.jsonl
+*.log
+
+# Local secrets/config
+.env
+.env.*
+!.env.example
+
+# Editors/OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
